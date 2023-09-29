@@ -1,0 +1,674 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;0,900;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: poppins;
+}
+
+.heading3{
+    font-size:"2rem";
+    color: #666666;
+    font-weight: bold;
+}
+/* buttons */
+.button{
+    border: none;
+    background: linear-gradient(to right, rgba(34, 34, 203, 0.928), rgb(205, 182, 228));
+    padding: 0.8rem;
+    border-radius: 30px;
+    width: 80%;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 2vh 0;
+    
+    
+
+    }
+header{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    align-items: center;
+
+}
+header h1 span{
+    color: #0067ac;
+    margin: 2vh 0;
+}
+header .sub-menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+header .sub-menu img{
+height: 1rem;
+}
+header .sub-menu span{
+    margin-top:2vh ;
+}
+a{
+    color: black;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 2vh;
+}
+/* section one  css*/
+.padding2{
+    padding: 2rem;
+}
+.one .left{
+   
+    width: 100%;
+    align-items: center;
+    margin-left: 1rem;
+}
+.one .left h1{
+    color: #666666;
+    font-size: 2rem;
+    justify-content: center ;
+    margin-top: 2.5rem;
+   
+}
+.one .left h3{
+    font-weight: lighter;
+    font-size: 1rem;
+    
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    
+}
+.one .left .feature{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 2vh 0;
+    margin-left: .5rem;
+}
+.one .left .feature{
+    height: 3rem;
+}
+.one .left .feature p{
+    font-size: 0.7rem;
+    margin-left: 1rem;
+}
+.one .left .feature img{
+    height: 2rem;
+    margin-left: 1rem;
+    
+}
+.one .right{
+    position: relative;
+    width: 100%;
+}
+.one .right img{
+    width: 100%;
+    height: auto;
+    
+}
+.background{
+    position: absolute;
+    top: 1;
+    z-index: -1;
+}
+.one .right .background{
+    
+    height: 70%;
+    width: 60%;
+    right: 0;
+}    
+.one .right .foreground{
+    margin-top: -10%;
+    width: 80%;
+    position: relative;
+    right: -30%;
+    
+}
+
+
+
+
+/* section 2 css */
+.two .left{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.two .left img{
+    width: 100%;
+    height: auto;
+}
+.two .left .background{
+    width: 80%;
+    height: auto;
+    left: 0;
+    
+    margin: top 2rem;
+    position: absolute;
+    top: 10%;
+}
+.two .left .foreground{
+    width: 60%;
+    position: relative;
+   margin-top: 10%;
+    left: 10%;
+}
+.two .right{
+    height: 60vh;
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    
+
+}
+.two .right h3{
+    color: #666666 ;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+/* section three */
+.three{
+    text-align: center;
+    width: 100%;
+    margin-top: 15rem;
+    height: 60vh;
+    position: relative;
+}
+
+.three .offers .offer  img{
+    height: 20%;
+    width: auto;
+    margin: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.three .offers .offer h6{
+    font-size: 1rem;
+}
+.three .offers .offer {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    
+}
+.three .offer{
+    margin-top: 1rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 4 css */
+.four{
+    width: 100%;
+    text-align: center;
+}
+.four .foods{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.four .foods .food{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: 1rem;
+    box-shadow: 0px 1px 1px 0px;
+
+}
+
+.four .foods .food img{
+    width: 70%;
+    height: auto;
+}
+
+.four .foods .food .button{
+    width: 50%;
+}
+.four .foods .food span{
+    color: red;
+}
+.four .foods .food .price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    gap: 1rem;
+}
+
+
+.four .foods .food:hover{
+   background: #0067ac; 
+   color: white;
+   outline: none;
+
+}
+.four .foods .food button:hover{
+    background: white;
+    color: #0067ac;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer section */
+footer{
+    width: 100%;
+    height: 0vh;
+    
+   
+}
+footer h4{
+    font-size: 1.8rem;
+}
+footer .special-offer{
+    padding: 2rem;
+    text-align: center;
+
+}
+footer .special-offer .input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+footer .special-offer .input input{
+    padding: 0.8rem;
+    margin-top: 3vh;
+    width: 80%;
+    border: 1px solid #666666;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+footer .details h1{
+    padding-top: 3vh;
+}
+footer .details .detail h4{
+    color: rgb(21, 2, 2);
+    font-size: 1rem;
+}
+
+
+footer .special-offer .input button{
+    width: 40%;
+}
+
+footer .details .boxes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+footer .details{
+    background: linear-gradient(to bottom ,white, #4d83ef);
+    text-align: center;
+    margin-top: 1rem;   
+    padding-bottom: 2rem;
+}
+footer .details .detail ul{
+    list-style: none;
+    font-size: xx-small;
+}
+
+footer .details .detail ul li{
+    font-size: 0.8rem;
+}
+
+
+footer .details .detail img{
+    
+    height: 1.5rem;
+
+}
+footer .details .boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+
+
+
+/* media queries section */
+
+
+@media screen and (min-width: 700px){
+    header .sub-menu{
+        display: flex;
+        flex-direction: row;
+    }
+    .one .left h1{
+        font-size: 3rem ;
+    }
+    .one .left h3{
+        font-size: 1.2rem;
+        width: 70%;
+        line-height: 2rem;
+        
+    }
+    .one .left button{width: 200px;
+        width: 200px;
+    }
+    
+    .one .left .features{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .one .right .background{
+        width: 40%;
+        height: 100%;
+        margin-top: -5%;
+    }
+
+
+    .one .right .foreground{
+        width: 50%;
+        margin-left: 30%;
+
+
+
+       
+    }
+    
+    .two .right button{
+        width: 200px;
+        margin-left: 0%;
+
+
+    }
+    .two .left .foreground{
+        width: 48%;
+        position: relative;
+        top: -5%;
+
+    }
+    .two .left .background{
+      position: absolute;
+      top: -9%;
+    
+    } 
+    .two .right{
+        margin-top: 10%;
+        margin-left: 0;
+    }
+    .three .offer{
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        margin-right: 2rem;
+    }
+    .three{
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        height: 40vh ;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+
+    .three .offers .offer {
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+
+    .three .offers{
+        display: flex;
+        width: 100%;
+    }
+
+
+    .four{
+        margin-left: 1rem;
+    }
+    .four .foods{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    footer .details .boxes{
+        grid-template-columns: repeat(4, 1fr); 
+    }
+
+    
+    
+}
+/* laptops */
+@media screen and (min-width: 1200px) {
+    header{
+        display: flex ;
+        flex-direction: row;
+        width: 80%;
+        height: 12vh;
+        margin-left: 2rem;
+        align-items: center;
+    }
+    header h1{
+         font-size: 3.8rem; 
+    }
+    .one{
+        display: grid;
+        grid-template-columns: 60% auto;
+        height: 100vh;
+        margin-left:1rem;
+    }
+    .one .left .h1{
+        font-size: 4rem;
+    }
+
+    
+    .one .left .features{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        font-size: 1.5rem;
+        margin-top: 8rem;
+        
+    }
+    .one .right .background{
+        position: absolute;
+        top: 5%;
+        height: 75vh; 
+        margin-top: -28%;   
+        width:auto;   
+    }
+    .one .right .foreground{
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        height: 50vh;    
+        width:auto;   }
+    .one .left .button{
+        margin-top: 1rem;
+    }   
+    
+    .two{
+        display: grid;
+        grid-template-columns: 45% auto;
+        position: relative;
+        margin-top: 3rem;
+        height: 100vh;
+    }
+    .two .left .background{
+        height: 90vh;
+        width: auto;
+        position: absolute;
+        top: -15%
+
+    }
+    .two .left .foreground{
+        height: 60vh;
+        position: absolute;
+        top: -5%;
+        width: auto;
+    }
+    .two .right .button{
+        margin-top: 5rem;
+    }
+    .two .right{
+        position: relative;
+        top: -15%;
+    }
+    .three{
+        height: 90vh;
+        margin-top: -20%;
+        
+        margin-left: 2rem;
+        
+    }
+    .three h3{
+        font-size: 2.5rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .three h5{
+        font-size: 1.2rem;
+        font-weight: lighter;
+        margin-bottom: 5rem;
+      
+    }
+
+    .three .offers .offer img{
+        width: 4rem;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    .three .offers{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    
+    }
+    .four{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100vh;
+        width: 100%;
+        margin-top: 0;
+        align-items: center;
+    }
+    .four h4{
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+    .four h3{
+        margin: 0;
+        padding: 0;
+        font-size: 1.5rem;
+        }
+    .four .foods{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .four .foods .food{
+        height: 100%;
+        width: 80%;
+    }
+
+    
+    .logo{
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .abc{
+        width: 20%;
+    }
+     
+
+
+
+    
+    footer{
+        width: 100%;
+        position: relative;
+        display: grid;
+        margin-top: 20vh;
+    }
+    footer .special-offer{
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        border: 1px solid #666666;
+        border-radius: 90px;
+        position: absolute;
+        margin-top: -10%;
+        justify-self: center;
+        background: white; 
+        background-image: url(./assets/bg-pg-3.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    footer .special-offer .input{
+        display: flex;
+        flex-direction:row ;
+        width: 50%;
+        margin: auto;
+        align-items: center;
+    }
+    footer .special-offer .input input{
+        border: none;
+    }
+
+    footer .details{
+        height: 60vh;
+        display: grid;
+        grid-template-columns: 30% auto ;
+        align-items: center;  
+        margin-top: 6rem; 
+   }
+
+}
+
